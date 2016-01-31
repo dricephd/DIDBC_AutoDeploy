@@ -9,7 +9,8 @@
   "author": "DrIcePhD",
   "license": "GPL-3.0",
   "dependencies": {
-    "nodegit": "^0.9.0",
-    "unzip": "^0.1.11"
+    "async": "^1.5.2",
+    "forever-monitor": "^1.7.0",
+    "simple-git": "^1.21.0"
   }
 }

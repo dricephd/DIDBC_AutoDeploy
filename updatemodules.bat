@@ -1,0 +1,2 @@
+cd repo
+npm install
