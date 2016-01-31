@@ -1,0 +1,15 @@
+{
+  "name": "didbc_autodeploy",
+  "version": "1.0.0",
+  "description": "Pulls new github deployment when catches webhook",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DrIcePhD",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "gith": "^1.0.4",
+    "unzip": "^0.1.11"
+  }
+}
