@@ -12,7 +12,7 @@ var child = new (forever.Monitor)('./repo/client.js', {
 	max: 10,
 	silent: true,
 	killTree: true,
-	watch: true,
+	watch: false,
 	watchDirectory: repoLocalPath,
 	args: []
 });
@@ -39,7 +39,7 @@ function updateRepo() {
 				console.log("Updating node_modules");
 				require('child_process').exec('updatemodules.bat');
 			}
-			setTimeout(updateRepo,5000);
+			setTimeout(updateRepo,60000);
 		});
 }
 child.on('watch:restart', function(info) {
